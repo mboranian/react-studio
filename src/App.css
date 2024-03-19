@@ -1,9 +1,57 @@
 /* Add styling for your page here */
 
 .App {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+#title {
+    position: fixed;
+    left: 50px;
+    top: 17px
 }
 
 .BakeryItem {
-  
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 20px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+}
+
+.pic {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.BakeryButtons {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+#justItems {
+    display: flex;
+}
+
+.ItemsAndCart {
+    position: relative;
+    top: 100px
+}
+
+#cart {
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    width: 20%;
+    height: fit-content;
+    padding: 10px;
+    margin: 15px
 }
